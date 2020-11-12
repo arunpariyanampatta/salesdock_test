@@ -1,0 +1,22 @@
+FrameWork : Codeigniter4
+Database :  Mysql
+Password : no password
+User  :  root
+How to Seed :  in root folder , Please use below command
+php spark db::seed MainSeeder
+        There is a main seeder file  to execute all other seeder files
+        ProductTypeSeeder to Add ProductType
+        PrdocutSeeder to add product
+        ProductRuleSeeder to add Rules
+        ProductRuleMapperSeeder to Map Rules and Product
+        
+    To Execute the Project
+        php spark server --port 8125 under root folder
+
+    Class Locations : 
+    Under app\Libraries 
+    While adding rule please make sure that it is  matched with rule name in ProductRuleSeeder
+
+Currently all the process are manual , But it would be better if we can enhance everything in an automated process
+
+
